@@ -2,7 +2,6 @@ import { View, ScrollView } from 'react-native';
 import Header from '@/components/Header';
 import JournalCard from '@/components/JournalCard';
 import React from 'react';
-import { LinearGradient } from 'expo-linear-gradient';
 
 export default function JournalCardsScreen() {
     return (
