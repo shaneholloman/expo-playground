@@ -122,14 +122,14 @@ export default function Dropdown() {
 
                         {/* Header */}
                         <Pressable onPress={toggleDropdown} className="flex-row items-center px-2 py-2">
-                            <Animated.View style={{ ...profileAnimatedStyle, transformOrigin: 'left' }} className="origin-left  relative w-10 h-10 rounded-full">
+                            <Animated.View style={[profileAnimatedStyle, { transformOrigin: 'left' }]} className="origin-left  relative w-10 h-10 rounded-full">
                                 <Image source={require("@/assets/img/user-1.jpg")} className="w-10 h-10 border border-black/20 rounded-full" />
                                 <Animated.View style={onlineAnimatedStyle} className="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-green-400 border border-[#333430]" />
                             </Animated.View>
                             <Animated.View style={nameAnimatedStyle}>
                                 <Text className="text-white mx-3 text-sm font-semibold">John Doe</Text>
                             </Animated.View>
-                            <Animated.View style={{ ...iconAnimatedStyle }} className="ml-auto mr-1">
+                            <Animated.View style={iconAnimatedStyle} className="ml-auto mr-1">
                                 <Animated.View style={rotateAnimatedStyle}>
                                     <Feather name="chevron-down" size={16} color="white" />
                                 </Animated.View>

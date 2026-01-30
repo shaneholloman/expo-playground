@@ -20,6 +20,7 @@ export default function Home() {
                     <Text className='text-5xl font-bold text-text'>Hello there!</Text>
                     <Text className='text-text text-lg opacity-50'>Welcome to my playground</Text>
                 </View>
+                <LinkItem href='/screens/notes' icon='book-open' title='Notes' description='Expandable cards' />
                 <LinkItem href='/screens/product' icon='shopping-cart' title='Product' description='Procuct details' />
                 <LinkItem href='/screens/dropdown' icon='chevron-down' title='Dropdown' description='Expandable dropdown' />
                 <LinkItem href='/screens/card-flip' icon='box' title='Card Flip' description='3d card flip' />

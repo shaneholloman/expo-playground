@@ -1,6 +1,5 @@
 {
   "expo": {
-    "newArchEnabled": true,
     "name": "Thomino's playground",
     "slug": "thomino-playground",
     "version": "1.0.0",
@@ -10,7 +9,8 @@
       "favicon": "./assets/favicon.png"
     },
     "experiments": {
-      "tsconfigPaths": true
+      "tsconfigPaths": true,
+      "reactCompiler": true
     },
     "plugins": [
       "expo-router",
