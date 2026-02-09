@@ -18,6 +18,12 @@ export default function RootLayout() {
                 <Stack screenOptions={screenOptions}>
                     <Stack.Screen name="index" />
                     <Stack.Screen
+                        name="screens/bottom-acc"
+                        options={{
+                            headerShown: false,
+                        }}
+                    />
+                    <Stack.Screen
                         name="screens/native-sheet"
                         options={{
                             presentation: Platform.OS === 'ios' ? 'formSheet' : 'modal',

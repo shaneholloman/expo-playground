@@ -21,6 +21,7 @@ export default function Home() {
                     <Text className='text-text text-lg opacity-50'>Welcome to my playground</Text>
                 </View>
                 <LinkItem href='/screens/skia' icon='bar-chart' title='Chart' description='Skia animated chart' />
+                <LinkItem href='/screens/bottom-acc' icon='activity' title='Bottom Accessory' description='iOS native tab accessory' />
                 <LinkItem href='/screens/native-toolbar' icon='menu' title='Native Toolbar' description='iOS bottom toolbar (v7 beta)' />
                 <LinkItem href='/screens/native-demo' icon='smartphone' title='Native Sheets' description='iOS form sheet dialogs' />
               
