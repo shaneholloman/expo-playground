@@ -20,6 +20,7 @@ export default function Home() {
                     <Text className='text-5xl font-bold text-text'>Hello there!</Text>
                     <Text className='text-text text-lg opacity-50'>Welcome to my playground</Text>
                 </View>
+                <LinkItem href='/screens/gooey' icon='circle' title='Gooey' description='Gooey morphing effect with Skia' />
                 <LinkItem href='/screens/header-drawer' icon='layout' title='Header Drawer' description='Header drawer sliding down' />
                 <LinkItem href='/screens/skia' icon='bar-chart' title='Chart' description='Skia animated chart' />
                 <LinkItem href='/screens/bottom-acc' icon='activity' title='Bottom Accessory' description='iOS native tab accessory' />
